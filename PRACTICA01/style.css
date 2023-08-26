@@ -1,0 +1,31 @@
+
+html{
+ font-size: 62.5%;
+}
+
+.container{
+ display: flex;
+    height: 100vh;
+}
+
+#izquierdo{
+    width: 40%;
+    background-color: blueviolet;
+}
+
+
+#derecho{
+    background-color: rgb(135, 159, 233);
+    width: 60%;
+}
+
+
+#izquierdo img{
+    border-radius: 100px;
+}
+
+body{
+box-sizing: border-box;
+margin: 0;
+
+}
