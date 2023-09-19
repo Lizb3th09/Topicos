@@ -3,9 +3,10 @@ const api = [
         image: {
 
            uri: 'https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2002&q=80'
+        
         },
         title: 'Aplicaciones Moviles',
-        description: ' '
+        description:'El mundo actual gira en torno a las aplicaciones móviles. '
     },
     {
         image: {
@@ -13,7 +14,7 @@ const api = [
            
         },
         title: 'Inteligencia Artificial',
-        description: ''
+        description:'La inteligencia artificial es una revolución tecnológica que está transformando el mundo.   '
     },
     {
         image: {
@@ -21,7 +22,7 @@ const api = [
             
         },
         title: 'Base de datos',
-        description: ''
+        description:'Las bases de datos son el corazón de la gestión de información en el mundo digital actual.  '
     },
     {
         image: {
@@ -29,7 +30,7 @@ const api = [
            
         },
         title: 'Curso html',
-        description: ''
+        description:'Entra en el emocionante mundo del diseño web y la creación digital con nuestro curso '
     },
     {
         image: {
@@ -37,7 +38,7 @@ const api = [
             
         },
         title: 'Diseño',
-        description: ' gggggg'
+        description:'Desatar tu creatividad y construir sitios web impactantes   '
     }
   
 ]
