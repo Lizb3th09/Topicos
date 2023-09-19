@@ -1,0 +1,87 @@
+/* Establece un tamaño de fuente del 62.5%, lo que hace que 1rem sea igual a 10px */
+html {
+    font-size: 62.5%;
+  }
+  
+  /* Establece la propiedad box-sizing en border-box para todos los elementos */
+  * {
+    box-sizing: border-box;
+  }
+  
+
+
+  /* diseño del cuerpo de la página */
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Usa el 100% de la altura del viewport */
+    overflow: hidden; /* Oculta el desplazamiento horizontal */
+    margin: 0;
+    background-color: #6c3c93; /* Fondo de color gris claro */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  
+
+
+  /* diseño del formulario */
+  form {
+    background-color: rgb(200, 166, 235); /* Fondo morado */
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 9px; /* Margen exterior */
+    display: grid;
+    gap: 10px; /* Espaciado entre los elementos del formulario */
+    color: rgb(80, 61, 95);
+  }
+  
+
+
+  /* diseño del título principal */
+  .main h2 {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 9px;
+    font-size: 31px; /* Tamaño de fuente del título */
+    color: aliceblue;
+  }
+  
+
+
+  /* diseño del texto*/
+  label {
+    font-weight: bold;
+    font-size: 18px; /* Tamaño de fuente para las etiquetas */
+    margin-bottom: 8px; /* Margen inferior */
+  }
+  
+
+  /* entrada de texto*/
+  input[type="text"],
+  input[type="password"] {
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de fuente para los campos de entrada */
+    color: rgb(99, 52, 106);
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+  
+
+  /* diseño del botón */
+  #validar {
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(79, 7, 152);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  

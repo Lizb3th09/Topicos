@@ -1,0 +1,84 @@
+* {
+  background-color: #d07feb00;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #1d1c1c;
+  
+}
+
+.header {
+  padding: 33px;
+  color: black;
+  background-color: #d07feb00;
+}
+
+.header-title {
+  text-align: center;
+  color: white;
+  font-style: italic;
+
+  
+}
+
+.header-subtitle {
+  text-align: center;
+  color: white;
+  
+}
+
+#tablaInfo{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 0fr)); 
+  grid-gap: 20px; 
+  justify-content: center; 
+  align-content: center; 
+ 
+
+}
+
+.item-container:hover {
+  border: 1px solid #f1bbfc; 
+  padding: 10px; 
+  width: 100%; 
+  background-color: rgb(255, 115, 0);
+}
+
+.item-container {
+  border: 2px solid rgb(255, 205, 3);
+  border-radius: 5%;
+}
+
+
+.item-container img {
+  max-width: 95%; 
+}
+
+
+.item-container h2  {
+  color: white;
+  text-align: center;
+  background-color: #b90449;
+  font-size: 18px; 
+  margin: 10px 0; 
+}
+
+
+.item-container p {
+  color: rgb(255, 255, 255);
+  font-size: 14px; 
+  font-style: italic;
+  background-color: #1d1c1c00;
+ 
+}
+
+body{
+  background: linear-gradient(to bottom, #f6cd00,#b8003d);
+  padding: 5%;
+}
+
+#app{
+  background-color: #d07feb00;
+  padding: 0;
+
+}

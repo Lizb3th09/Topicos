@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+/* Configuración básica */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(254, 254, 254, 0.9),
+    rgba(135, 47, 236, 0.4)
+  );
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 2px solid #c803ff;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #c975c943;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  justify-content: center;
+}
+.grid-item {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.grid-item {
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+.button{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  justify-self: center;
+  width: 00px;
+}
+

@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  /* Establece la propiedad box-sizing en border-box para todos los elementos */
+  * {
+    box-sizing: border-box;
+  }
+  
+
+
+  /* diseño del cuerpo de la página */
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Usa el 100% de la altura del viewport */
+    overflow: hidden; /* Oculta el desplazamiento horizontal */
+    margin: 0;
+    background-color: #6c3c93; /* Fondo de color gris claro */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+
+  .main h2{
+    text-align: center;
+  }

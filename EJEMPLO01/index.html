@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <h1>Conversor de Pesos a Dólares</h1>
+    
+    <!-- Etiqueta y entrada para ingresar la cantidad en pesos -->
+    <label for="pesosInput">Ingresa la cantidad de pesos:</label>
+    <input type="number" id="pesosInput">
+    
+    <!-- Botón para realizar la conversión -->
+    <button id="convertButton">Convertir</button>
+    
+    <!-- Párrafo para mostrar el resultado de la conversión -->
+    <p id="resultado"></p>
+
+    <!-- Script de JavaScript -->
+    <script>
+        // Obtener referencia al botón de conversión
+        const convertButton = document.getElementById('convertButton');
+        
+        // Obtener referencia al elemento donde se mostrará el resultado
+        const resultadoElement = document.getElementById('resultado');
+
+        // Agregar un evento de clic al botón de conversión
+        convertButton.addEventListener('click', () => {
+            // Obtener referencia al campo de entrada de pesos
+            const pesosInput = document.getElementById('pesosInput');
+            
+            // Obtener el valor ingresado por el usuario en pesos
+            const valorInput = pesosInput.value;
+
+            // Definir el tipo de cambio aproximado
+            const tipoCambio = 0.050; // 1 Peso Mexicano = 0.050 Dólares
+
+            // Realizar la conversión a dólares
+            const dolares = valorInput * tipoCambio;
+
+            // Mostrar el resultado de la conversión en el elemento de resultado
+            resultadoElement.textContent = `${valorInput} pesos son aproximadamente ${dolares.toFixed(2)} dólares.`;
+        });
+    </script>
+</body>
+</html>

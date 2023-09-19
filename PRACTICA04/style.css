@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+/* Configuración básica */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #460b57b9
+  
+ 
+  
+}
+
+form {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+
+  padding: 20px;
+  border-radius: 12px;
+ 
+  
+}
+
+
+.button{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  justify-self: center;
+  width: 00px;
+}
+
+
+
+.contenedor{
+  min-width: fit-content;
+  /*background-color: rgb(109, 22, 196); /* Fondo morado */
+  border-radius: 8px;
+  padding: 20px;
+  width: 10%; /* Ocupa todo el ancho disponible */
+  margin: 9px; /* Margen exterior */
+  display: grid;
+  gap: 10px; /* Espaciado entre los elementos del formulario */
+  color: rgb(0, 0, 0);
+}
+
+.contenedor1{
+  background-color: rgb(109, 22, 196); 
+}
+
+.contenedor2{
+ 
+  background-color: rgb(249, 245, 253); 
+ 
+}
+
+.contenedor3{
+  background-color: rgb(255, 154, 21); 
+}
+
+.contenedor4{
+  background-color: rgb(22, 182, 196); 
+}
+
+
+.contenedor5{
+  background-color: rgb(114, 240, 148); /* Fondo morado */
+}
