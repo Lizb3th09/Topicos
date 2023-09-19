@@ -1,27 +1,79 @@
-
-html{
-    font-size: 62.5%;
-   }
-   
-   .main{
-       display: flex;
-       height: 100vh;
-      
-   }
-   
+body {
+    box-sizing: border-box;
+    margin: 0;
+  }
   
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column: 2fr;
+    height: 100vh;
+  }
   
-   .left img{
-       border-radius: 100px;
-        background-color: rgb(34, 0, 255);
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #322e2e;
+    color: white;
+    padding: 10%;
+  }
+  
+  .left-content__avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 5px #fd0464 solid;
+  }
+  
+  .left-content__name,
+  .left-content__contact,
+  .left-content__profile {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .left-content__name h2,
+  .left-content__contact h2,
+  .left-content__profile h2 {
+  
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px #fd7207 solid;
+    padding-bottom: 10px;
+  }
+  
+  .left-content__contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  .left-content__contact li {
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+  }
+  
+  .left-content__name p,
+  .left-content__profile p {
+    font-size: 16px;
+  }
+  
+  .right {
+    background-image: linear-gradient(to right, #ffbf00, #ff0026);
+    color: white;
+    padding: 0 10%;
+  }
+  .right-content__title {
+    font-size: 40px;
+    color: #333;
+    background-color: antiquewhite;
+    border-radius: 33px;
+    border-left-width: 20cm;
+    text-align: center;
+  }
 
-   }
-
-   
-   
-
-   body{
-   box-sizing: border-box;
-   margin: 0;
-   
-   }
+  .right:hover {
+    background-image: linear-gradient(to right, #ff0037, #ff7b00);
+  }

@@ -34,7 +34,8 @@ export default function Formulario() {
   form.appendChild(button);
 
   button.addEventListener('click',()=>{
-    console.log('hizo click');
+    console.log("hizo click");
+    
   });
 
 
